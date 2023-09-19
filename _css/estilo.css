@@ -11,7 +11,7 @@ body {
 }
 
 div#interface {
-    width: 900px;
+    width: 1100px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px black;
@@ -25,7 +25,7 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 870px;
+    left: 920px;
     top: 65px;
 }    
 
@@ -92,7 +92,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 450px;
+    left: 500px;
 }
 
 nav#menu li {
@@ -120,4 +120,26 @@ nav#menu a:hover{
     color:#ffffff;
 }
 
+/* Formatação: Section, Aside e Footer */
+section#corpo {
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
 
+aside#lateral {
+    display: block;
+    width: 420px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
