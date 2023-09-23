@@ -25,7 +25,7 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 920px;
+    left: 970px;
     top: 65px;
 }    
 
@@ -92,7 +92,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 500px;
+    left: 540px;
 }
 
 nav#menu li {
@@ -142,6 +142,31 @@ table#tabelaspec td {
     padding: 10px;
     text-align: center;
     vertical-align: top;
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 aside#lateral {
